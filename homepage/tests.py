@@ -1,5 +1,5 @@
 from django.test import TestCase, Client
-from .views import homepage
+from .views import home
 
 
 class UrlsTestCase(TestCase):
@@ -7,7 +7,7 @@ class UrlsTestCase(TestCase):
         self.cli = Client()
 
     def test_homepage_status(self):
-        rep = self.cli.get('')
+        rep = self.cli.get('/')
         self.assertEqual(rep.status_code, 200)
-        self.assertEqual(rep.resolver_match.func, homepage)
+        self.assertEqual(rep.resolver_match.func, home)
         self.assertTemplateUsed(rep, 'homepage/index.html')
