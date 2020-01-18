@@ -1,10 +1,11 @@
 {% extends 'homepage/base.html' %}
+{% load static %}
 
 {% block firstblock %}
 <div class="container-fluid h-80">
     <div class="row h-80">
         <div class="col-12 h-80 align-im-sl"> <!-- d-flex justify-content-center align-items-center -->
-            <h1 class="text-white size-xl"><strong>FeedEasy</strong></h1>
+            <h1 class="text-white size-xxl"><strong>FeedEasy</strong></h1>
             <h2 class="text-white">Rester organisé dans vos repas !</h2>
         </div>
     </div>
@@ -12,6 +13,24 @@
 {% endblock firstblock %}
 
 {% block content %}
-<h2>Test</h2>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h3 class="size-xl margin-b-t">L'objectif de FeedEasy !</h3>
+        </div>
+        <div class="col-12">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, dolores corporis laborum quidem ea in! Vel tenetur expedita, ex mollitia in, nobis, vitae commodi repudiandae hic similique quae magni dicta!</p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img class="img-fluide img-desc" src="{% static 'homepage/img/logo_complet.png' %}" alt="img_descriptive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <p>Ceci est un test de police d'ecriture</p>
 {% endblock content %}
