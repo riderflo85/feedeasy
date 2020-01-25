@@ -4,7 +4,7 @@
 {% block firstblock %}
 <div class="container-fluid h-80">
     <div class="row h-80">
-        <div class="col-12 h-80 align-im-sl"> <!-- d-flex justify-content-center align-items-center -->
+        <div class="col-12 h-80 align-im-sl testAnimate"> <!-- d-flex justify-content-center align-items-center -->
             <h1 class="text-white size-xxl"><strong>FeedEasy</strong></h1>
             <h2 class="text-white">Rester organisé dans vos repas !</h2>
         </div>
@@ -13,10 +13,11 @@
 {% endblock firstblock %}
 
 {% block content %}
+<div class=""></div>
 <div class="container-fluid">
     <div class="row">
         <div class="col-12 text-center">
-            <h3 class="size-xl margin-b-t">L'objectif de FeedEasy !</h3>
+            <h3 class="size-xl margin-b-t testAnimate">L'objectif de FeedEasy !</h3>
         </div>
         <div class="col-12">
             <div class="container-fluid">
@@ -33,4 +34,5 @@
     </div>
 </div>
 <p>Ceci est un test de police d'ecriture</p>
+<script src="{% static 'homepage/js/script.js' %}"></script>
 {% endblock content %}
