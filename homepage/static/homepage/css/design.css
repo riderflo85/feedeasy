@@ -1,5 +1,6 @@
 body {
     font-family: 'Kalam' !important;
+    background-color: #262626 !important;
 }
 
 section {
@@ -8,6 +9,10 @@ section {
     background-position: bottom;
     background-size: auto;
     height: 100vh;
+}
+
+p {
+    color: white;
 }
 
 .img-brand {
@@ -43,6 +48,18 @@ section {
     font-size: 40px;
 }
 
+.size-m {
+    font-size: 30px;
+}
+
+.size-s {
+    font-size: 20px;
+}
+
+.size-xs {
+    font-size: 18px;
+}
+
 .img-desc {
     height: 150px;
     width: auto;
@@ -50,4 +67,8 @@ section {
 
 .testAnimate {
     opacity: 0;
+}
+
+.text-pos-right {
+    margin-left: 70vh;
 }
