@@ -1,3 +1,7 @@
+// var s = skrollr.init();
+
+
+
 // gsap.effects.explode(".testAnimate", { direction: "up", duration: 2 });
 // register the effect with GSAP:
 gsap.registerEffect({
