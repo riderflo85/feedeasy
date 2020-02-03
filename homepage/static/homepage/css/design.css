@@ -79,3 +79,7 @@ p {
     height: 300px;
     overflow: hidden;
 }
+
+#parallaxImg {
+    position: absolute;
+}

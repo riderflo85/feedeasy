@@ -1,7 +1,3 @@
-// var s = skrollr.init();
-
-
-
 // gsap.effects.explode(".testAnimate", { direction: "up", duration: 2 });
 // register the effect with GSAP:
 gsap.registerEffect({
@@ -15,3 +11,7 @@ gsap.registerEffect({
 
 // now we can use it like this:
 gsap.effects.fade(".testAnimate");
+
+
+// Parallax effect init
+var s = skrollr.init();
