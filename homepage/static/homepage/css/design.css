@@ -69,10 +69,6 @@ p {
     opacity: 0;
 }
 
-.text-pos-right {
-    margin-left: 70vh;
-}
-
 .parallax-container {
     position: relative;
     width: 100%;
@@ -82,4 +78,16 @@ p {
 
 #parallaxImg {
     position: absolute;
+}
+
+.graph-block {
+    width: 100%;
+}
+
+.rounded-block {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid rebeccapurple;
+    border-radius: 50px;
 }
