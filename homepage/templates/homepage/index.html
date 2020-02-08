@@ -4,7 +4,7 @@
 {% block firstblock %}
 <div class="container-fluid h-80">
     <div class="row h-80">
-        <div class="col-12 h-80 align-im-sl testAnimate"> <!-- d-flex justify-content-center align-items-center -->
+        <div class="col-12 h-80 align-im-sl testAnimate">
             <h1 class="text-white size-xxl"><strong>FeedEasy</strong></h1>
             <h2 class="text-white">Rester organisé dans vos repas !</h2>
         </div>
@@ -47,7 +47,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-8">
                         <p class="text-white">graphique</p>
-                        <div class="graph-block">
+                        <!-- <div class="graph-block">
                             <div class="d-flex" id="firstLine">
                                 <div class="rounded-block mx-auto">Test</div>
                             </div>
@@ -66,11 +66,57 @@
                                 <div class="rounded-block mx-auto">Test</div>
                                 <div class="rounded-block mx-auto">Test</div>
                             </div>
-                        </div>
+                        </div> -->
+                        <img src="{% static 'homepage/img/graph.png' %}" alt="graph" class="img-fluide">
                     </div>
                     <div class="col-12 col-lg-4">
                         <p class="size-xs">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis deleniti dolores doloribus consequatur voluptas odit consequuntur mollitia labore, iste commodi eaque, voluptates amet ex quasi at autem expedita illo! Quo?</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid degrad mt-5">
+    <div class="row">
+        <div class="col-12 text-center mt-5">
+            <h3 class="text-white size-xl">Solutions proposées</h3>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="shop-section">
+                        <i class="fas fa-shopping-cart fa-7x icon-shop"></i>
+                        <p class="size-s badge-pos"><span class="badge badge-pill badge-primary">Achat</span></p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <p class="size-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, libero. Incidunt eligendi eveniet, quod eum odit enim delectus ex porro fugit nobis doloremque molestias modi et dolorem! Officiis, velit. Doloribus.</p>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class="shop-section">
+                        <i class="fas fa-utensils fa-7x icon-shop"></i>
+                        <p class="size-s badge-pos"><span class="badge badge-pill badge-primary">Préparation</span></p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <p class="size-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, libero. Incidunt eligendi
+                        eveniet, quod eum odit enim delectus ex porro fugit nobis doloremque molestias modi et dolorem! Officiis, velit.
+                        Doloribus.</p>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class="shop-section">
+                        <i class="fas fa-hamburger fa-7x icon-shop"></i>
+                        <p class="size-s badge-pos"><span class="badge badge-pill badge-primary">Repas</span></p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <p class="size-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, libero. Incidunt eligendi
+                        eveniet, quod eum odit enim delectus ex porro fugit nobis doloremque molestias modi et dolorem! Officiis, velit.
+                        Doloribus.</p>
                 </div>
             </div>
         </div>

@@ -91,3 +91,21 @@ p {
     border: 1px solid rebeccapurple;
     border-radius: 50px;
 }
+
+.degrad {
+    background: linear-gradient(#262626, #b38f00);
+}
+
+.shop-section {
+    text-align: center;
+}
+
+.icon-shop {
+    color: red;
+}
+
+.badge-pos {
+    position: absolute;
+    top: -5px;
+    left: 6em;
+}
