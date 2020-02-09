@@ -60,6 +60,10 @@ p {
     font-size: 18px;
 }
 
+.between-section {
+    margin-bottom: 100px;
+}
+
 .img-desc {
     height: 150px;
     width: auto;
@@ -90,10 +94,6 @@ p {
     background-color: red;
     border: 1px solid rebeccapurple;
     border-radius: 50px;
-}
-
-.degrad {
-    background: linear-gradient(#262626, #b38f00);
 }
 
 .shop-section {
